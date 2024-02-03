@@ -1,0 +1,31 @@
+#calculator {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 2px auto;
+    padding: 10px;
+}
+
+#input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    
+}
+
+#buttonParent {
+    margin-left: 10px;
+}
+#btn {
+    width: 30PX;
+    height: 30px;
+    margin: 5px;
+    border-radius: 3px;
+    border: 1px solid #d9d9d9
+    
+
+}
+#btn:hover {
+    transition: .5s;
+    background: orange;
+}
